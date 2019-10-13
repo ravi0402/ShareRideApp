@@ -1,10 +1,10 @@
-# Webpack4-React-Redux-Sass
-Basic setup with Webpack 4, React, Redux and Sass
+# Share Ride App
 
+To run this app locally, execute following commands in terminal:
 
-Work in progress...
+* npm install
+* npm install -g json-server
+* json-server --watch db.json
+* npm run start
 
-* yarn install
-* yarn start
-* yarn build
-
+db.json(present in the root directory), acts as a dummy Database which stores the details(users, cars).

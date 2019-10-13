@@ -1,0 +1,27 @@
+.header {
+    margin-bottom: 0px !important;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+
+    .action {
+        cursor: pointer;
+
+        &:hover {
+            color: #000000;
+        }
+    }
+}
+
+.logoContainer {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.register {
+    font-size: 16px;
+    ;
+}

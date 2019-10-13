@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: 0 0 20px 0 rgba(46, 61, 73, .15);
+    border-radius: 6px;
+
+    @media screen and (max-width: 760px) {
+        margin: 30px 5%;
+    }
+
+    .inputField {
+        margin-bottom: 16px;
+        width: 100%;
+
+        .input {
+            height: 34px;
+        }
+    }
+
+    .error {
+        height: 16px;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 8px;
+        color: red;
+    }
+}
+
+.registerNow {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+    &>span {
+        cursor: pointer;
+        margin-left: 5px;
+        color: #55bbea;
+    }
+}
+
+.header {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 30px auto;
+    width: 100%;
+    text-align: center;
+}

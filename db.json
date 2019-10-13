@@ -1,0 +1,99 @@
+{
+  "users": [{
+      "fullname": "Ravi Sharnagat",
+      "email": "g@g.com",
+      "mobilenumber": "9340353529",
+      "password": "nn",
+      "id": 1
+    },
+    {
+      "fullname": "Ravi Sharnagat",
+      "email": "ravi.sharnagat@gmail.com",
+      "mobilenumber": "9340353529",
+      "password": "ff",
+      "repassword": "ff",
+      "id": 195
+    }
+  ],
+  "cars": [{
+      "route": "Madhapur to Hitec City",
+      "source": "Madhapur",
+      "destination": "Hitec City",
+      "name": "Ravi",
+      "car": "Polo",
+      "rating": 4.5,
+      "id": 1,
+      "seatsAvailable": 5
+    },
+    {
+      "route": "Madhapur to KukatPally",
+      "source": "Madhapur",
+      "destination": "KukatPally",
+      "name": "Joseph",
+      "car": "Swift",
+      "rating": 4,
+      "id": 2,
+      "seatsAvailable": 3
+    },
+    {
+      "route": "Whitefields to Jubilee Hills",
+      "source": "Whitefields",
+      "destination": "Jubilee Hills",
+      "name": "Soujanaya",
+      "car": "Swift",
+      "rating": 4.5,
+      "id": 3,
+      "seatsAvailable": 5
+    },
+    {
+      "route": "Lanco Hills to Gachibowli",
+      "source": "Lanco Hills",
+      "destination": "Gachibowli",
+      "name": "Sukanya",
+      "car": "Nexa",
+      "rating": 4,
+      "id": 4,
+      "seatsAvailable": 0
+    },
+    {
+      "route": "Thane to Andheri",
+      "source": "Thane",
+      "destination": "Andheri",
+      "name": "Bhagya",
+      "car": "Polo",
+      "rating": 4,
+      "id": 5,
+      "seatsAvailable": 3
+    },
+    {
+      "route": "Madhapur to KukatPally",
+      "source": "Madhapur",
+      "destination": "KukatPally",
+      "name": "Rahul",
+      "car": "Swift",
+      "rating": 4,
+      "id": 6,
+      "seatsAvailable": 6
+    },
+    {
+      "route": "Whitefields to Jubilee Hills",
+      "source": "Whitefields",
+      "destination": "Jubilee Hills",
+      "name": "Shweta",
+      "car": "Swift",
+      "rating": 4.5,
+      "id": 7,
+      "seatsAvailable": 9
+    },
+    {
+      "route": "Kothaguda to Hitec City",
+      "source": "Kothaguda",
+      "destination": "Hitec City",
+      "name": "Ram",
+      "car": "Swift",
+      "rating": 4.5,
+      "id": 8,
+      "seatsAvailable": 2
+    }
+  ]
+}

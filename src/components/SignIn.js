@@ -76,7 +76,6 @@ export default class SignIn extends React.Component {
                     error: 'Incorrect Username/Password!'
                 })
             }).catch(e => {
-                console.log(e);
                 this.setState({
                     error: 'Something went wrong!'
                 })

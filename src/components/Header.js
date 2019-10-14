@@ -15,8 +15,6 @@ export default class Header extends React.Component {
         const { activeStep } = this.props;
         let action;
 
-        console.log(activeStep);
-
         switch (activeStep) {
             case 'Login':
                 action = 'Register'
